@@ -1,0 +1,50 @@
+
+
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ .page-title {
+    color: #1f1f1f;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.payslip-title {
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.card-box {
+	/*background-color: #fff;*/
+	/*border: 1px solid #ededed;*/
+	border-radius: 4px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+	margin-bottom: 30px;
+	padding: 20px;
+	position: relative;
+}
+
+
+  a[href]:after {
+    content: none !important;
+  }
+@media print{
+
+  .button_print
+  {
+  	display: none;
+  }  
+}
+ .button_print
+  {
+  	display: none;
+  }  
+/*bootstrap table*/
+

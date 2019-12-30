@@ -1,0 +1,21 @@
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.print_button
+{
+
+  display: none;
+}
+
+ @page { size: landscape; }
+ table {
+  border-collapse: collapse;
+   width: 100%;
+}
+
+
+th {
+  height: 50px;
+}
